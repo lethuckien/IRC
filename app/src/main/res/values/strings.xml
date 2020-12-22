@@ -1,0 +1,32 @@
+<resources>
+    <!--    Title-->
+    <string name="app_name">IRC Client</string>
+    <string name="logo">USTH logo</string>
+
+    <!--    Server-->
+    <string name="freenode">freenode (EN)</string>
+    <string name="epiknet">EpiKnet (FR)</string>
+    <string name="quakenet">QuakeNet (EN)</string>
+    <string name="undernet">UnderNet (EN)</string>
+    <string name="kottnet">KottNet (EN)</string>
+    <string name="other">Other</string>
+    <string name="choose_server">Select server</string>
+
+    <!--    Menu-->
+    <string name="setting">Settings</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="more">More</string>
+    <string name="add_server">Add server</string>
+    <string name="nickname">Change nickname</string>
+    <string name="join_channel">Join channel</string>
+    <string name="create_channel">Channel name</string>
+    <string name="leave">Leave</string>
+    <string name="cancel">Cancel</string>
+    <string name="join">Join</string>
+    <string name="new_nickname">New nickname</string>
+    <string name="change">Change</string>
+
+    <string name="message_hint">Enter a message</string>
+    <string name="send">Send</string>
+</resources>

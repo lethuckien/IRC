@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pacific_blue">#0099CC</color>
+    <color name="snowy_mint">#CCFFCC</color>
+    <color name="malibu">#66CCFF</color>
+    <color name="smalt">#003399</color>
+    <color name="light_blue">#738F9B</color>
+    <color name="yellow">#EFDD6F</color>
+    <color name="raw_umber">#7B4A12</color>
+    <color name="orange">#E49135</color>
+    <color name="orange_red">#BA6222</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

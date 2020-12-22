@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/about_image_width"
+            android:layout_height="match_parent"
+            android:padding="@dimen/about_image_padding"
+            android:src="@drawable/ic_account_icon"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Nguyễn Bùi Nhật Anh - BI9-042"
+            android:textColor="@color/black"
+            android:textSize="@dimen/about_text_size"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/about_image_width"
+            android:layout_height="match_parent"
+            android:padding="@dimen/about_image_padding"
+            android:src="@drawable/ic_account_icon"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Vũ Vương Quốc Anh - BI9-046"
+            android:textColor="@color/black"
+            android:textSize="@dimen/about_text_size"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/about_image_width"
+            android:layout_height="match_parent"
+            android:padding="@dimen/about_image_padding"
+            android:src="@drawable/ic_account_icon"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Vũ Văn Huy - BI9-116"
+            android:textColor="@color/black"
+            android:textSize="@dimen/about_text_size"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/about_image_width"
+            android:layout_height="match_parent"
+            android:padding="@dimen/about_image_padding"
+            android:src="@drawable/ic_account_icon"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Lê Thúc Kiên - BI9-131"
+            android:textColor="@color/black"
+            android:textSize="@dimen/about_text_size"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/about_image_width"
+            android:layout_height="match_parent"
+            android:padding="@dimen/about_image_padding"
+            android:src="@drawable/ic_account_icon"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Phạm Long Vũ - BI9-234"
+            android:textColor="@color/black"
+            android:textSize="@dimen/about_text_size"></TextView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/setting"
+        android:title="@string/setting"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_more_icon"
+        android:title="@string/more"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/nickname"
+                android:title="@string/nickname"
+                app:showAsAction="never">
+            </item>
+            <item
+                android:id="@+id/channel"
+                android:title="@string/join_channel"
+                app:showAsAction="never">
+            </item>
+            <item
+                android:id="@+id/leave"
+                android:title="@string/leave"
+                app:showAsAction="never">
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/add_server"
+        android:icon="@drawable/ic_add_icon"
+        android:title="@string/add_server"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>

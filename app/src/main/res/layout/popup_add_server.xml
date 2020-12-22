@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_server_text_height"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/popup_server_padding_left"
+        android:text="@string/choose_server"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/freenode_popup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_server_text_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:onClick="freenodeClick"
+        android:paddingLeft="@dimen/popup_server_padding_left"
+        android:text="@string/freenode"
+        android:textColor="@color/black"
+        android:textSize="@dimen/popup_server_text_size"></TextView>
+
+    <TextView
+        android:id="@+id/epiknet_popup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_server_text_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/popup_server_padding_left"
+        android:text="@string/epiknet"
+        android:textColor="@color/black"
+        android:textSize="@dimen/popup_server_text_size"></TextView>
+
+    <TextView
+        android:id="@+id/quakenet_popup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_server_text_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/popup_server_padding_left"
+        android:text="@string/quakenet"
+        android:textColor="@color/black"
+        android:textSize="@dimen/popup_server_text_size"></TextView>
+
+    <TextView
+        android:id="@+id/undernet_popup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_server_text_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/popup_server_padding_left"
+        android:text="@string/undernet"
+        android:textColor="@color/black"
+        android:textSize="@dimen/popup_server_text_size"></TextView>
+
+    <TextView
+        android:id="@+id/kottnet_popup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_server_text_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/popup_server_padding_left"
+        android:text="@string/kottnet"
+        android:textColor="@color/black"
+        android:textSize="@dimen/popup_server_text_size"></TextView>
+
+    <TextView
+        android:id="@+id/other_popup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_server_text_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/popup_server_padding_left"
+        android:text="@string/other"
+        android:textColor="@color/black"
+        android:textSize="@dimen/popup_server_text_size"></TextView>
+</LinearLayout>
