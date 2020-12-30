@@ -9,8 +9,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import vn.edu.usth.ircclient.Adapter.ChatFragmentAdapter;
-import vn.edu.usth.ircclient.Fragments.ChatFragment;
 import vn.edu.usth.ircclient.R;
 
 public class StartingActivity extends AppCompatActivity {
@@ -73,7 +71,7 @@ public class StartingActivity extends AppCompatActivity {
     }
 
     private void startMainScreen(String title) {
-        Intent intent = new Intent(this, MainScreenActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra("title", title);
         startActivity(intent);
     }

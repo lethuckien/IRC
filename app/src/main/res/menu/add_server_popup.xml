@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/freenode"
+        android:id="@+id/freenode_popup"/>
+    <item android:title="@string/epiknet"
+        android:id="@+id/epiknet_popup"/>
+    <item android:title="@string/quakenet"
+        android:id="@+id/quakenet_popup"/>
+    <item android:title="@string/undernet"
+        android:id="@+id/undernet_popup"/>
+    <item android:title="@string/kottnet"
+        android:id="@+id/kottnet_popup"/>
+    <item android:title="@string/other"
+        android:id="@+id/other_popup"/>
+</menu>
